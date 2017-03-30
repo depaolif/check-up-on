@@ -5,9 +5,8 @@ class UsersController < ActionController::Base
 
   def get_tweet_text_block
     user_name = params[:twitter_handle]
-    text_block = combine_tweets($client.user_timeline(user_name))
+    text_block = combine_tweets($client.user_timeline(user_name).slice(0,10))
     @json_ples = {:tweet_text => text_block}.to_json
-    puts @json_ples
     render json: @json_ples
   end
 
