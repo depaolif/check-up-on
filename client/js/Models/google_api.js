@@ -17,14 +17,14 @@ class GoogleApi {
   }
 
   // makes an ajax request to the google api using this.requestURL and this.requestBody
-  static parseSentiment(text) {
+  static parseSentiment(text, twitterHandle="realDonaldTrump") {
     $.ajax({
       url: this.requestURL(),
       contentType: "application/json",
       type: "POST",
       data: JSON.stringify(this.responseBody(text))
     }).then(function(data) {
-      let twitterHandle = $("#search-field").val()
+      debugger
       let sentiment = data.documentSentiment.score
       let magnitude = data.documentSentiment.magnitude
       let analyzedText = new TextAnalyzer(sentiment, magnitude, text, twitterHandle)
