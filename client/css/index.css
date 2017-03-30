@@ -1,3 +1,7 @@
+body {
+  background: rgb(254, 255, 193);
+}
+
 #all {
   margin-top: 10em;
 }
@@ -9,6 +13,24 @@
 #results {
   font-size: 1.5em;
   margin-top: 3em;
-  visibility: hidden;
+  visibility: visible;
   text-align: center;
+}
+
+.tip {
+  border-bottom: 1px dotted grey;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+.tip:hover {
+  cursor: help;
+}
+.tooltip-inner {
+    background-color: #e859ff;
+    color: #fff;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #e859ff;
 }
