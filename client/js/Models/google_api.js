@@ -26,14 +26,8 @@ class GoogleApi {
     }).then(function(data) {
       let sentiment = data.documentSentiment.score
       let magnitude = data.documentSentiment.magnitude
-      let analyzedText = new TextAnalyzer(sentiment, magnitude, text)
+      let analyzedText = new TextAnalyzer(sentiment, magnitude, text, twitterHandle)
       ViewController.renderMood(analyzedText)
     })
   }
 }
-
-
-var text = "Michaelangelo was one of the best painters. No others came close. A lot of them tried to reach his level but failed. In him, there was a singular genius. An unprecedented prodigy, he created some of the most moving pieces of all time."
-var text1 = "Everything is amazing! I love everyone at this company. I am thrilled to be an employee here; we really are changing the world for the better!"
-var text2 = "I am NOT doing well. I want to crawl in bed and die. I hate this company; I cannot believe I joined it. I can slowly feel my life being drained away with each passing hour, sitting here in this gray cubicle, sending thank you email after thank you email."
-var text3 = "Everything is absolutely awful. I hate everything; I'm quitting my job today. It was a complete mistake to join in the first place, and I woefully regret it."

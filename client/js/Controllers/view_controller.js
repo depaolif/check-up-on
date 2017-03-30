@@ -1,6 +1,5 @@
 var currView = false
 
-
 class ViewController {
 
   static resetView() {
@@ -20,7 +19,7 @@ class ViewController {
 
   }
 
-  static renderSubPar() {
+  static renderPoor() {
     //frederico
 
   }
@@ -38,13 +37,7 @@ class ViewController {
 
   static renderMood(analyzedText) {
     debugger
-
+    this.resetView()
     ViewController[`render${analyzedText.mood}`]();
   }
 }
-
-//   }
-//
-//
-//
-// }

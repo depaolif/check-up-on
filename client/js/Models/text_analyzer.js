@@ -1,53 +1,49 @@
 var currView = false
 
 class TextAnalyzer {
-  constructor(sentiment, magnitude, text) {
+  constructor(sentiment, magnitude, text, twitterHandle) {
     this.sentiment = sentiment
     this.magnitude = magnitude
+    this.twitterHandle = twitterHandle
     this.text = text
-    {mood, snippet} = this.getMood()
-    this.mood, this.snippet = this.getMood()
+    // //finish
+    // {mood, snippet} = this.getMood()
+    // this.mood, this.snippet = this.getMood()
   }
 
   getViewMood() {
-    let mood = ''
+    let mood, color
     let snippet = this.twitterHandle
+
     switch (true) {
       case (this.sentiment > 0.7):
         mood = 'Great'
         snippet += " is doing great."
+        color = 'blue'
       case (this.sentiment > 0.3):
         mood = 'Good'
         snippet = " is doing pretty good."
+        color = 'green'
       case (this.sentiment > 0):
         mood = 'Ok'
         snippet = " is doing ok."
+        color = 'lawngreen'
       case (this.sentiment > -0.3):
-        mood = 'SubPar'
+        mood = 'Poor'
         snippet = " isn't doing that great."
+        color = 'orange'
       case (this.sentiment > -0.7):
         mood = 'Bad'
         snippet = " is having a hard time."
+        color = 'peru'
       case (this.sentiment >= -1):
         mood = 'Miserable'
         snippet = " is miserable."
+        color = 'red'
       default:
         snippet = " is unclear how they feel."
     }
-    return [mood, snippet]
+    return {mood: mood, snippet: snippet, color: color}
   }
 
 }
-
-// static getSentimentPhrase() {
-//   switch (this.getColor()) {
-//     case "blue":
-//     case "green":
-//     case "lawngreen":
-//     case "orange":
-//     case "peru":
-//     case "red":
-//     default:
-//       return "unreadable"
-//   }
-// }
