@@ -995,3 +995,33 @@ app/controllers/users_controller.rb:11:in `get_tweet_text_block'
   Rendering /Users/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
   Rendered /Users/flatironschool/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (76.9ms)
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 10:49:24 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 551ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 10:55:17 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 774ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 10:55:22 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 255ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 10:56:06 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 198ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:02:59 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 737ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+

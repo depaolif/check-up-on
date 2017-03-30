@@ -1,3 +1,5 @@
+var currView = false
+
 class AnalyzedText {
 
   static resetView() {
