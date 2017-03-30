@@ -1,0 +1,14 @@
+#all {
+  margin-top: 10em;
+}
+
+#search_field {
+  width: 7em;
+}
+
+#results {
+  font-size: 1.5em;
+  margin-top: 3em;
+  visibility: visible;
+  text-align: center;
+}
