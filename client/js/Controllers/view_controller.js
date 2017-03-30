@@ -1,14 +1,11 @@
 var currView = false
 
 class ViewController {
-
   static displayScore(analyzedText) {
-    var snippet, color, sentiment, magnitude
-    ({snippet, color, sentiment, magnitude} = analyzedText.getViewMood())
-    $("#sentiment").text(snippet)
-    $("#sentiment").attr('style','color: ' + color)
-    $("#sentiment-score").text(sentiment)
-    $("#magnitude-score").text(magnitude)
+    $("#sentiment").text(analyzedText.snippet)
+    $("#sentiment").attr('style','color: ' + analyzedText.color)
+    $("#sentiment-score").text(analyzedText.sentiment)
+    $("#magnitude-score").text(analyzedText.magnitude)
     $("#results").attr('style','visibility: visible')
   }
 
@@ -51,5 +48,5 @@ class ViewController {
     this.resetView()
     this[`render${analyzedText.mood}`](analyzedText)
   }
-
+  
 }
