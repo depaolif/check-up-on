@@ -1,9 +1,14 @@
 body {
   background: rgb(254, 255, 193);
+  font-family: 'Open Sans', sans-serif;
 }
 
 #all {
   margin-top: 10em;
+}
+
+#prompt {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #search-field {
@@ -23,7 +28,6 @@ body {
   padding-right: 0.25em;
   padding-bottom: 0.25em;
 }
-
 .tip:hover {
   cursor: help;
 }
