@@ -5,10 +5,10 @@ class TextAnalyzer {
     this.sentiment = sentiment
     this.magnitude = magnitude
     this.twitterHandle = twitterHandle
-    this.text = text
-    // //finish
-    // {mood, snippet} = this.getMood()
-    // this.mood, this.snippet = this.getMood()
+    let temp = this.getViewMood()
+    this.mood = temp[0]
+    this.snippet = temp[1]
+    this.color = temp[2]
   }
 
   getViewMood() {
@@ -49,7 +49,7 @@ class TextAnalyzer {
       default:
         snippet += " is unclear how they feel."
     }
-    return {mood: mood, snippet: snippet, color: color, sentiment: this.sentiment, magnitude: this.magnitude }
+    return [mood, snippet, color]
   }
 
 }

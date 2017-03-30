@@ -2,52 +2,52 @@ var currView = false
 
 class ViewController {
 
-  static resetView() {
+  static resetView(analyzedText) {
+    $("#moodView").empty("")
   }
 
-  static renderGreat() {
+  static renderGreat(analyzedText) {
     //daniel
 
   }
 
-  static renderGood() {
+  static renderGood(analyzedText) {
     //daniel
   }
 
-  static renderOk() {
+  static renderOk(analyzedText) {
     //frederico
 
   }
 
-  static renderPoor() {
+  static renderPoor(analyzedText) {
     //frederico
 
   }
 
-  static renderBad() {
+  static renderBad(analyzedText) {
     //daniel
 
   }
 
-  static renderMiserable() {
+  static renderMiserable(analyzedText) {
     //frederico
     currView = "miserable"
+
 
   }
 
   static renderMood(analyzedText) {
-    debugger
     this.resetView()
-    ViewController[`render${analyzedText.mood}`]();
+
+    this[`render${analyzedText.mood}`](analyzedText)
   }
 
   static displayScore(analyzedText) {
-    var snippet, color, sentiment, magnitude
-    ({snippet, color, sentiment, magnitude} = analyzedText.getViewMood())
-    $("#sentiment").text(snippet)
-    $("#sentiment").attr('style','color: ' + color)
-    $("#sentiment-score").text(sentiment)
-    $("#magnitude-score").text(magnitude)
+    $("#sentiment").text(analyzedText.snippet)
+    $("#sentiment").attr('style','color: ' + analyzedText.color)
+    $("#sentiment-score").text(analyzedText.sentiment)
+    $("#magnitude-score").text(analyzedText.magnitude)
     $("#results").attr('style','visibility: visible')
   }
 }
