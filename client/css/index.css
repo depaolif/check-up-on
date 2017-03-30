@@ -12,7 +12,9 @@ body {
 }
 
 #search-field {
-  width: 7em;
+  width: 8em;
+  text-align: center;
+  outline: none;
 }
 
 #results {
