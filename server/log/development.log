@@ -1061,3 +1061,9 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 819ms (Views: 0.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 13:48:36 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 733ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+

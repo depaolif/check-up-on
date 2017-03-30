@@ -40,4 +40,13 @@ class ViewController {
     this.resetView()
     ViewController[`render${analyzedText.mood}`]();
   }
+
+  static displayScore(analyzedText) {
+    ({snippet, color, sentiment, magnitude} = analyzedText.getViewMood())
+    $("#sentiment").text(snippet)
+    $("#sentiment").attr('style','color: ' + color)
+    $("#sentiment-score").text(sentiment)
+    $("#magnitude-score").text(magnitude)
+    $("#results").attr('style','visibility: visible')
+  }
 }
