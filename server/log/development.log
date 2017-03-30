@@ -1025,3 +1025,39 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 737ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:41:18 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 432ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:41:45 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 656ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:43:59 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 978ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:44:46 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 185ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:44:47 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 271ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-30 11:45:28 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 819ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+

@@ -24,10 +24,10 @@ class GoogleApi {
       type: "POST",
       data: JSON.stringify(this.responseBody(text))
     }).then(function(data) {
-      AnalyzedText.sentiment = data.documentSentiment.score
-      AnalyzedText.magnitude = data.documentSentiment.magnitude
-      AnalyzedText.twitter_handle = twitterHandle
-      GoogleApiController.renderSentiment(AnalyzedText.sentiment,AnalyzedText.magnitude)
+      let sentiment = data.documentSentiment.score
+      let magnitude = data.documentSentiment.magnitude
+      let analyzedText = new TextAnalyzer(sentiment, magnitude, text)
+      ViewController.renderMood(analyzedText)
     })
   }
 }
