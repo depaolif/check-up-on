@@ -42,6 +42,7 @@ class ViewController {
   }
 
   static displayScore(analyzedText) {
+    var snippet, color, sentiment, magnitude
     ({snippet, color, sentiment, magnitude} = analyzedText.getViewMood())
     $("#sentiment").text(snippet)
     $("#sentiment").attr('style','color: ' + color)
