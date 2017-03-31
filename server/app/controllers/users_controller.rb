@@ -5,7 +5,7 @@ class UsersController < ActionController::Base
     user_name = params[:twitter_handle]
     text_block = combine_tweets($client.user_timeline(user_name).slice(0,10))
     photo_url = $client.user_timeline(user_name)[0][:attrs][:user][:profile_image_url]
-    @json_ples = {:tweet_text => text_block, :user_photo => photo_url}.to_json
+    @json_ples = {:tweet_text => text_block, :user_photo => photo_url, :link => "https://twitter.com/#{user_name}"}.to_json
     render json: @json_ples
   end
 
