@@ -3,7 +3,8 @@ function googleCall() {
   $.ajax({
     url: `http://localhost:3000/users/${twitterHandle}/get_tweet_text_block`,
     success: (data) => {
-      let userPhotos = data.user_photos
+      let userPhoto = data.user_photos.web.url
+      $("#twitter-photo").attr("src", userPhoto)
       GoogleApi.parseSentiment(data.tweet_text, twitterHandle)
     },
     error: () => { setNoUserFound(twitterHandle) }

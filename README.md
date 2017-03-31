@@ -27,4 +27,6 @@ Things you may want to cover:
 #TODO
 
   - F: tooltip
-  - D: handle no twitter name found
+  - tooltip change mouse cursor
+  - magnitude working?
+  - outline on input element outside of input element instead so it does not flash?
