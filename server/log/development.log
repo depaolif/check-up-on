@@ -2158,3 +2158,177 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 904ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-31 11:30:12 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 862ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:31:57 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 426ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:32:25 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 499ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:32:50 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 498ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-03-31 11:33:21 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 578ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-03-31 11:35:21 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 454ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/azealiabanks/get_tweet_text_block" for ::1 at 2017-03-31 11:35:29 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"azealiabanks"}
+Completed 200 OK in 452ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:35:54 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 471ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:36:07 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 472ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/barackobama/get_tweet_text_block" for ::1 at 2017-03-31 11:36:13 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"barackobama"}
+Completed 200 OK in 488ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:36:19 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 398ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kanyewest/get_tweet_text_block" for ::1 at 2017-03-31 11:36:24 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kanyewest"}
+Completed 200 OK in 424ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kanyewest/get_tweet_text_block" for ::1 at 2017-03-31 11:36:40 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kanyewest"}
+Completed 200 OK in 425ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/jsdfnjsdnf/get_tweet_text_block" for ::1 at 2017-03-31 11:36:43 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"jsdfnjsdnf"}
+Completed 500 Internal Server Error in 186ms (ActiveRecord: 0.0ms)
+
+
+  
+Twitter::Error::NotFound (Sorry, that page does not exist.):
+  
+app/controllers/users_controller.rb:6:in `get_tweet_text_block'
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (128.2ms)
+Started GET "/users/sdjfhdsf/get_tweet_text_block" for ::1 at 2017-03-31 11:37:05 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"sdjfhdsf"}
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.0ms)
+
+
+  
+Twitter::Error::NotFound (Sorry, that page does not exist.):
+  
+app/controllers/users_controller.rb:6:in `get_tweet_text_block'
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.1ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.3ms)
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:37:53 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 585ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realDonaldTrump/get_tweet_text_block" for ::1 at 2017-03-31 11:38:04 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realDonaldTrump"}
+Completed 200 OK in 573ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-03-31 11:38:35 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 536ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kimkardashian/get_tweet_text_block" for ::1 at 2017-03-31 11:38:40 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kimkardashian"}
+Completed 200 OK in 575ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kanyewst/get_tweet_text_block" for ::1 at 2017-03-31 11:38:52 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kanyewst"}
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.0ms)
+
+
+  
+Twitter::Error::Unauthorized (Not authorized.):
+  
+app/controllers/users_controller.rb:6:in `get_tweet_text_block'
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.2ms)
+Started GET "/users/kanyewest/get_tweet_text_block" for ::1 at 2017-03-31 11:38:57 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kanyewest"}
+Completed 200 OK in 541ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kanyewest/get_tweet_text_block" for ::1 at 2017-03-31 11:40:20 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kanyewest"}
+Completed 200 OK in 461ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/barackobama/get_tweet_text_block" for ::1 at 2017-03-31 11:41:05 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"barackobama"}
+Completed 200 OK in 576ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
