@@ -29,7 +29,7 @@ class TextAnalyzer {
       case (this.sentiment > 0):
         mood = 'Ok'
         snippet += " is doing ok."
-        color = 'lawngreen'
+        color = 'yellowgreen'
         break
       case (this.sentiment > -0.3):
         mood = 'Poor'
@@ -39,7 +39,7 @@ class TextAnalyzer {
       case (this.sentiment > -0.7):
         mood = 'Bad'
         snippet += " is having a hard time."
-        color = 'peru'
+        color = 'sienna'
         break
       case (this.sentiment >= -1):
         mood = 'Miserable'
