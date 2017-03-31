@@ -46,9 +46,7 @@ class ViewController {
 
   static renderMood(analyzedText) {
     this.resetView()
-
     this[`render${analyzedText.mood}`](analyzedText)
   }
-
-
+  
 }

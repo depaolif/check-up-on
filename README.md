@@ -22,3 +22,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+#TODO
+
+  - F: tooltip
+  - D: handle no twitter name found
