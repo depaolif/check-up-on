@@ -1,9 +1,10 @@
-function passTextToGoogleApi(tweetText) {
+function passTextToGoogleApi(tweetText, twitterHandle) {
   GoogleApi.parseSentiment(tweetText, twitterHandle)
 }
 
-function setNoUserFound() {
-  $("#search-field").val("User Not Found!")
+function setNoUserFound(twitterHandle) {
+  $("#search-field").val("")
+  alert(`No user named ${twitterHandle} found!`)
 }
 
 $(() => {
@@ -12,8 +13,8 @@ $(() => {
     let twitterHandle = $("#search-field").val() || "realDonaldTrump"
     $.ajax({
       url: `http://localhost:3000/users/${twitterHandle}/get_tweet_text_block`,
-      success: (data) => { passTextToGoogleApi(data.tweet_text, twitterHandle) },
-      error: () => { setNoUserFound() }
+      success: (data) => { GoogleApi.parseSentiment(data.tweet_text, twitterHandle) },
+      error: () => { setNoUserFound(twitterHandle) }
     })
   })
 })

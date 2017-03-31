@@ -23,7 +23,7 @@ class TextAnalyzer {
         break
       case (this.sentiment > 0.3):
         mood = 'Good'
-        snippet += " is doing pretty good."
+        snippet += " is doing pretty well."
         color = 'green'
         break
       case (this.sentiment > 0):
