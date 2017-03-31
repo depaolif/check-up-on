@@ -24,7 +24,6 @@ class GoogleApi {
       type: "POST",
       data: JSON.stringify(this.responseBody(text))
     }).then(function(data) {
-      debugger
       let sentiment = data.documentSentiment.score
       let magnitude = data.documentSentiment.magnitude
       let analyzedText = new TextAnalyzer(sentiment, magnitude, text, twitterHandle)

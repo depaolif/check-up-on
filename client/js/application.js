@@ -1,19 +1,27 @@
-function passTextToGoogleApi(tweetText, twitterHandle) {
-  GoogleApi.parseSentiment(tweetText, twitterHandle)
+function setNoUserFound(twitterHandle) {
+  $("#search-field").val("No User Found!")
+  $("#search-field").addClass("errorAnimator")
 }
 
-function setNoUserFound(twitterHandle) {
-  $("#search-field").val("")
-  alert(`No user named ${twitterHandle} found!`)
+function normalizeSearchField() {
+  // if the search text field is in wrong user error mode, this will reset text/color
+  if ($("#search-field").hasClass("errorAnimator")) {
+    $("#search-field").val("")
+    $("#search-field").removeClass("errorAnimator")
+  }
 }
 
 $(() => {
+  $("#search-field").click(() => { normalizeSearchField() })
   $('[data-toggle="tooltip"]').tooltip()
   $("#query").click(function() {
-    let twitterHandle = $("#search-field").val() || "realDonaldTrump"
+    let twitterHandle = ($("#search-field").val() == "") ? "realDonaldTrump" : $("#search-field").val()
     $.ajax({
       url: `http://localhost:3000/users/${twitterHandle}/get_tweet_text_block`,
-      success: (data) => { GoogleApi.parseSentiment(data.tweet_text, twitterHandle) },
+      success: (data) => {
+        let userPhotos = data.user_photos
+        GoogleApi.parseSentiment(data.tweet_text, twitterHandle)
+      },
       error: () => { setNoUserFound(twitterHandle) }
     })
   })

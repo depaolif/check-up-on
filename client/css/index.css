@@ -12,3 +12,13 @@
   visibility: hidden;
   text-align: center;
 }
+
+.errorAnimator {
+  color: red;
+  animation: blink 700ms 4 alternate;
+}
+
+@keyframes blink {
+    from { opacity:1; }
+    to { opacity:0; }
+};
