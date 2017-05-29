@@ -1,19 +1,16 @@
-var currView = false
-
 class TextAnalyzer {
-  constructor(sentiment, magnitude, text="", twitterHandle) {
+  constructor(sentiment, magnitude, twitterHandle) {
     this.sentiment = sentiment
     this.magnitude = magnitude
     this.twitterHandle = twitterHandle
-    let temp = this.getViewMood()
-    this.mood = temp[0]
-    this.snippet = temp[1]
-    this.color = temp[2]
+    let res = this.getViewMood()
+    this.mood = res[0]
+    this.snippet = res[1]
+    this.color = res[2]
   }
 
   getViewMood() {
-    let mood, color
-    let snippet = this.twitterHandle
+    let mood, color, snippet = this.twitterHandle
 
     switch (true) {
       case (this.sentiment > 0.7):
@@ -26,7 +23,7 @@ class TextAnalyzer {
         snippet += " is doing pretty well."
         color = 'green'
         break
-      case (this.sentiment > 0):
+      case (this.sentiment >= 0):
         mood = 'Ok'
         snippet += " is doing ok."
         color = 'yellowgreen'

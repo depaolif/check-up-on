@@ -8,7 +8,7 @@ body {
 }
 
 #prompt {
-  color: #4099FF;
+  color: rgb(83, 167, 225);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -26,10 +26,19 @@ body {
   margin-top: 1em;
 }
 
+#twitterfly-photo {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 4.5em;
+  display: none;
+}
+
 #results {
   font-size: 1.5em;
   margin-top: 3em;
-  visibility: hidden;
+  display: none;
   text-align: center;
 }
 
@@ -52,12 +61,12 @@ body {
 }
 
 .tooltip-inner {
-    background-color: #4099FF;
+    background-color: rgb(83, 167, 225);
     color: #fff;
 }
 
 .tooltip.bottom .tooltip-arrow {
-    border-bottom-color: #4099FF;
+    border-bottom-color: rgb(83, 167, 225);
 }
 
 .errorAnimator {

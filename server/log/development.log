@@ -2930,3 +2930,357 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 253ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 14:07:50 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 393ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 14:09:04 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 476ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/barackobama/get_tweet_text_block" for ::1 at 2017-05-29 14:10:36 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"barackobama"}
+Completed 200 OK in 391ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/barackobama/get_tweet_text_block" for ::1 at 2017-05-29 14:11:20 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"barackobama"}
+Completed 200 OK in 378ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/barackobama/get_tweet_text_block" for ::1 at 2017-05-29 14:11:34 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"barackobama"}
+Completed 200 OK in 324ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:12:10 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 376ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:14:11 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 921ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:14:14 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 371ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:14:19 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 263ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:18:44 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 2902ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:18:51 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 924ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:18:56 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 5510ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:19:21 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 1118ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:19:27 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 1013ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:25:45 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 376ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:26:07 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 474ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:26:22 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 371ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:27:10 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 381ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygag/get_tweet_text_block" for ::1 at 2017-05-29 14:28:25 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygag"}
+Completed 200 OK in 243ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:28:28 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 320ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:28:31 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 267ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:28:41 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 193ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:28:45 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 345ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:28:47 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 317ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:28:59 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 595ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:29:10 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 703ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:30:23 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 616ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 14:30:33 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 363ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:30:36 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 245ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:30:40 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 242ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:31:12 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 485ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:31:31 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 404ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:31:34 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 280ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:35:58 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 391ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:51:49 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 775ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:51:55 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 248ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:54:00 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 775ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:54:24 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 562ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:54:28 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 654ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:54:33 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 226ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:56:02 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 456ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:57:14 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 267ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:57:19 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 231ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 14:57:40 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 259ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 14:57:43 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 239ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:58:35 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 541ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:59:44 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 292ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 14:59:58 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 247ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 15:01:26 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 291ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realrealdonaldt/get_tweet_text_block" for ::1 at 2017-05-29 15:01:31 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realrealdonaldt"}
+Completed 200 OK in 250ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:01:34 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 274ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:03:32 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 685ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kendricklamar/get_tweet_text_block" for ::1 at 2017-05-29 15:04:49 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kendricklamar"}
+Completed 200 OK in 1951ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 15:04:54 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 1184ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:05:33 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 1217ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/kendricklamar/get_tweet_text_block" for ::1 at 2017-05-29 15:05:43 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"kendricklamar"}
+Completed 200 OK in 453ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 15:05:47 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 426ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:06:49 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 1957ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 15:06:55 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 471ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
