@@ -10,6 +10,9 @@ function googleCall() {
       $("#twitter-photo").attr("src", userPhoto)
       $("#profile").attr("href", data.link)
     },
-    error: () => { setNoUserFound(twitterHandle) }
+    error: () => { 
+      setNoUserFound(twitterHandle)
+      $("#twitterfly-photo").css("display", "none")
+    }
   })
 }

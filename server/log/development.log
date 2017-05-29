@@ -3284,3 +3284,93 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 471ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:09:05 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 1528ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 15:09:14 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 493ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/realdonaldtrump/get_tweet_text_block" for ::1 at 2017-05-29 15:09:18 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"realdonaldtrump"}
+Completed 200 OK in 218ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 15:09:24 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 335ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/harleqat/get_tweet_text_block" for ::1 at 2017-05-29 15:09:39 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"harleqat"}
+Completed 200 OK in 799ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/jdfnsdjfn/get_tweet_text_block" for ::1 at 2017-05-29 15:09:42 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"jdfnsdjfn"}
+Completed 500 Internal Server Error in 261ms (ActiveRecord: 0.0ms)
+
+
+  
+Twitter::Error::NotFound (Sorry, that page does not exist.):
+  
+app/controllers/users_controller.rb:6:in `get_tweet_text_block'
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.5ms)
+Started GET "/users/dsfnjsdngjsdng/get_tweet_text_block" for ::1 at 2017-05-29 15:10:20 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"dsfnjsdngjsdng"}
+Completed 500 Internal Server Error in 2016ms (ActiveRecord: 0.0ms)
+
+
+  
+Twitter::Error::NotFound (Sorry, that page does not exist.):
+  
+app/controllers/users_controller.rb:6:in `get_tweet_text_block'
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.0ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.3ms)
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.7ms)
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:10:29 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 712ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sdkfsdlgns/get_tweet_text_block" for ::1 at 2017-05-29 15:10:32 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"sdkfsdlgns"}
+Completed 500 Internal Server Error in 244ms (ActiveRecord: 0.0ms)
+
+
+  
+Twitter::Error::NotFound (Sorry, that page does not exist.):
+  
+app/controllers/users_controller.rb:6:in `get_tweet_text_block'
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.9ms)
