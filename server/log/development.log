@@ -3497,3 +3497,15 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 520ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 16:53:42 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 1282ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 17:04:46 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 310ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
