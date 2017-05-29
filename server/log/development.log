@@ -3374,3 +3374,45 @@ app/controllers/users_controller.rb:6:in `get_tweet_text_block'
   Rendering /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /Users/fdepaoli/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (94.9ms)
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:13:29 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 451ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:13:53 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 1049ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 15:14:01 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 317ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 15:14:25 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 693ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/POTUS/get_tweet_text_block" for ::1 at 2017-05-29 15:14:28 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"POTUS"}
+Completed 200 OK in 394ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/POTUS/get_tweet_text_block" for ::1 at 2017-05-29 15:14:36 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"POTUS"}
+Completed 200 OK in 328ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/potus/get_tweet_text_block" for ::1 at 2017-05-29 15:14:39 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"potus"}
+Completed 200 OK in 368ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
