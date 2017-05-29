@@ -3416,3 +3416,9 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 368ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/beyonce/get_tweet_text_block" for ::1 at 2017-05-29 15:16:03 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"beyonce"}
+Completed 200 OK in 205ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
