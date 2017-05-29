@@ -2786,3 +2786,21 @@ Processing by UsersController#get_tweet_text_block as */*
 Completed 200 OK in 460ms (Views: 0.3ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 13:21:35 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 626ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 13:31:34 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 1648ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/ladygaga/get_tweet_text_block" for ::1 at 2017-05-29 13:33:32 -0400
+Processing by UsersController#get_tweet_text_block as */*
+  Parameters: {"twitter_handle"=>"ladygaga"}
+Completed 200 OK in 997ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+

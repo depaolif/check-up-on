@@ -28,7 +28,7 @@ body {
 
 #results {
   font-size: 1.5em;
-  margin-top: 2em;
+  margin-top: 3em;
   visibility: hidden;
   text-align: center;
 }
@@ -46,13 +46,16 @@ body {
   padding-right: 0.25em;
   padding-bottom: 0.25em;
 }
+
 .tip:hover {
   cursor: help;
 }
+
 .tooltip-inner {
     background-color: #4099FF;
     color: #fff;
 }
+
 .tooltip.bottom .tooltip-arrow {
     border-bottom-color: #4099FF;
 }
